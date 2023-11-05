@@ -2,17 +2,20 @@ import {Route, Routes} from 'react-router-dom';
 import Home from "./views/Home.jsx";
 import SecondView from "./views/SecondView.jsx";
 import Header from "./components/Header.jsx";
+import Example from "./views/Example.jsx"
+import Footer from "./components/Footer.jsx";
 export default function App(){
 
     return(
         <>
-            <div className="w-full h-full bg-dark-background">
-                <div className="w-full h-full">
+            <div className="w-full h-fit bg-dark-background bg-auto bg-fixed">
+                <div className="w-full h-fit min-h-screen text-center">
                     <Header></Header>
                     <Routes>
                         <Route path="/" element={<Home/>}></Route>
                         <Route path="/SecondView" element={<SecondView/>}></Route>
                     </Routes>
+                    <Footer></Footer>
                 </div>
             </div>
         </>
