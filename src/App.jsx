@@ -6,8 +6,8 @@ export default function App(){
 
     return(
         <>
-            <div className="w-full h-fit bg-dark-background bg-auto bg-fixed">
-                <div className="w-full h-fit min-h-screen text-center">
+            <div className="w-full h-fit static bg-rose-950 bg-auto bg-fixed">
+                <div className="w-full h-fit relative min-h-screen text-center">
                     <Header></Header>
                     <Routes>
                         <Route path="/" element={<Home/>}></Route>

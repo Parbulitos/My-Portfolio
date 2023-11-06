@@ -1,13 +1,13 @@
 export default function Home(){
 
     return(
-        <div className="h-screen overflow-x-hidden overflow-y-scroll snap-y snap-mandatory no-scrollbar">
-            <div className="h-screen snap-start">
-                <div className="w-full h-full relative">
+        <div className="h-screen static overflow-x-hidden overflow-y-scroll snap-y snap-mandatory no-scrollbar">
+            <div className="h-screen snap-start relative">
+                <div className="w-full h-full absolute bg-gray-600 opacity-50 z-20">
 
                 </div>
-                <div>
-                    <div className="h-screen relative bg-galery1 bg-cover animate-get-in">
+                <div className="">
+                    <div className="h-screen relative bg-galery1 bg-cover animate-get-in z-10">
 
                     </div>
                 </div>
@@ -19,6 +19,5 @@ export default function Home(){
 
             </div>
         </div>
-
     )
 }
