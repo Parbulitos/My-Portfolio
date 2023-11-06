@@ -7,6 +7,7 @@ export default {
   theme: {
     backgroundImage:{
       'dark-background' : "url('./src/assets/darkBackground.jpg')",
+      'galery1' : "url('./src/assets/GaleryIMG1.jpg')"
     },
     extend: {
       spacing:{

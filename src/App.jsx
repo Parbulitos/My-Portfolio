@@ -2,8 +2,6 @@ import {Route, Routes} from 'react-router-dom';
 import Home from "./views/Home.jsx";
 import SecondView from "./views/SecondView.jsx";
 import Header from "./components/Header.jsx";
-import Example from "./views/Example.jsx"
-import Footer from "./components/Footer.jsx";
 export default function App(){
 
     return(
@@ -15,7 +13,6 @@ export default function App(){
                         <Route path="/" element={<Home/>}></Route>
                         <Route path="/SecondView" element={<SecondView/>}></Route>
                     </Routes>
-                    <Footer></Footer>
                 </div>
             </div>
         </>
