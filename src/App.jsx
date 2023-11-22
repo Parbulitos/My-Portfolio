@@ -1,20 +1,14 @@
-import {Route, Routes} from 'react-router-dom';
 import Home from "./views/Home.jsx";
-import SecondView from "./views/SecondView.jsx";
-import Header from "./components/Header.jsx";
+
 export default function App(){
 
     return(
-        <>
-            <div className="w-full h-fit static bg-rose-950 bg-auto bg-fixed">
-                <div className="w-full h-fit relative min-h-screen text-center">
-                    <Header></Header>
-                    <Routes>
-                        <Route path="/" element={<Home/>}></Route>
-                        <Route path="/SecondView" element={<SecondView/>}></Route>
-                    </Routes>
+        <div id="background" className="bg-[url('../public/background.jpg')]">
+            <div id="mainAppContainer" className="w-full h-screen flex backdrop-blur-2xl backdrop-brightness-[0.4] justify-center">
+                <div id="mainViewContainer" className="w-[50%] h-screen overflow-y-scroll overflow-x-visible py-[10%]">
+                    <Home/>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
