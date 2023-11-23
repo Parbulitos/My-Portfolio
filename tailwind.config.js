@@ -41,6 +41,8 @@ export default {
       'ubuntuMono': ['"Ubuntu Mono"']
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }
 
