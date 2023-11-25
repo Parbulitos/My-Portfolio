@@ -38,7 +38,8 @@ export default {
       'mukta': ['Mukta'],
       'bebas': ['"Bebas Neue"'],
       'barlow': ['"Barlow Condensed"'],
-      'ubuntuMono': ['"Ubuntu Mono"']
+      'ubuntuMono': ['"Ubuntu Mono"'],
+      'barlowCondensed': ['"Barlow Condensed"']
     },
   },
   plugins: [

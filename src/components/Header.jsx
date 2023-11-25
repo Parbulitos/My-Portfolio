@@ -1,15 +1,13 @@
 
 export default function Header(){
     return(
-        <div id="mainHeaderContainer" className="w-full flex justify-center">
-            <div id="pictureAndNameContainer" className="w-full h-fit ml-[2%] max-w-2xl relative rounded-r-[20px] flex bg-slate-800 bg-opacity-50 overflow-visible border-[0.5px] border-gray-600 animate-fade-right">
-                <img src="../../public/profilePicture.png" alt="Profile picture" className="w-32 h-auto absolute -left-[20px] -top-[20px] rounded-full hover:drop-shadow-dark cursor-pointer transition duration-100 ease-in-out"/>
-                <div id="namesContainer" className="ml-32 py-3 ">
-                    <div id="name" className="text-white text-3xl animate-fade-right animate-delay-200">
-                        Carlos Echavarne
-                    </div>
-                    <div id="username" className="text-gray-400 text-xl animate-fade-right animate-delay-300">
-                        Full stack web developer
+        <div id="mainHeaderContainer" className="flex relative inset-x-0 justify-center">
+            <div id="pictureAndNameContainer" className="w-full relative rounded-xl overflow-auto p-10 animate-fade-right animate-delay-100">
+                <div id="tileContainer" className="max-w-2xl relative mx-auto flex items-center gap-6 rounded-xl bg-slate-800 bg-opacity-50 border-[0.5px] border-gray-600">
+                    <img className="w-36 absolute rounded-full -left-[20px] hover:drop-shadow-dark cursor-pointer transition duration-300 ease-in-out" src="../../public/profilePicture.png" alt="Profile Picture"/>
+                    <div className="flex flex-col py-5 pl-36">
+                        <div className="text-slate-200 text-2xl animate-fade-right animate-delay-150">Carlos Echavarne</div>
+                        <div className="text-slate-400 text-xl animate-fade-right animate-delay-[250ms]">Full Stack Web Developer</div>
                     </div>
                 </div>
             </div>
