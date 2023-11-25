@@ -33,6 +33,9 @@ export default {
         'mid': '1.05',
         'big': '1.1',
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      }
     },
     fontFamily: {
       'mukta': ['Mukta'],

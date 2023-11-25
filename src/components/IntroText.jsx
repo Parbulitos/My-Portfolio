@@ -1,12 +1,12 @@
 export default function IntroText(){
     return(
-        <div id="textMainContainer" className="w-full flex justify-center animate-fade-up animate-delay-150">
-            <p id="text" className="w-[80%] text-xl text-slate-200 font-barlowCondensed">
-                Welcome! I'm Carlos Echavarne, I have studied the computer science
-                degree from 2019 to 2024, I've been curious about web developement since
-                my first years of college. Currently I have used the most common technologies
-                in web developement but I always keep my goal in learning new things!
-            </p>
+        <div id="textMainContainer" className="w-full flex flex-col justify-center animate-fade-up animate-delay-150 px-[10%]">
+            <div id="text" className="w-[80%] inline-block text-7xl text-slate-200 font-barlowCondensed font-extrabold">
+                Welcome!
+            </div>
+            <div id="textName" className="w-[80%] inline-block text-5xl text-slate-200 font-barlowCondensed font-extrabold">
+                I'm Carlos Echavarne
+            </div>
         </div>
     )
 }

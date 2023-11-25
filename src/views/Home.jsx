@@ -9,7 +9,7 @@ export default function Home(){
             <div id="firstSpanDiv" className="w-full h-screen snap-start pt-[20%]">
                 <FirstSpan/>
             </div>
-            <div id="secondSpanDiv" className="w-full h-screen snap-start flex items-center justify-center">
+            <div id="secondSpanDiv" className="w-full h-screen snap-start lg:flex items-center justify-center">
                 <SecondSpan/>
             </div>
         </div>
