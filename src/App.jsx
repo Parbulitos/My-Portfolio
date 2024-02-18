@@ -6,7 +6,7 @@ import "@fontsource/jetbrains-mono/400-italic.css"; // Specify weight and style
 export default function App(){
 
     return (
-        <div>
+        <div className="overflow-hidden">
             <Home></Home>
         </div>
     )

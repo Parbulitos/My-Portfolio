@@ -1,4 +1,5 @@
 import CharacterRandomizer from "./CharacterRandomizer.jsx";
+import strings from "../strings/es.json"
 
 export default function InfoLanding(){
     return(
@@ -29,7 +30,7 @@ export default function InfoLanding(){
                 <CharacterRandomizer character={"e"}/>
                 <CharacterRandomizer character={"s"}/>
             </div>
-            <p className="mono text-2xl text-center max-w-lg mx-auto text-white">Desarrollador de software, putero y estafador!</p>
+            <p className="mono text-2xl text-center max-w-lg mx-auto text-white">{strings.landingDescription}</p>
         </div>
     )
 }
