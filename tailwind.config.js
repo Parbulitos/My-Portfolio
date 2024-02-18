@@ -9,7 +9,13 @@ export default {
       'dark-background' : "url('./src/assets/darkBackground.jpg')",
       'galery1' : "url('./src/assets/GaleryIMG1.jpg')"
     },
+
     extend: {
+      colors:{
+        'custom-black' : '#06070E',
+        'custom-purple' : '#8C4F9A',
+        'custom-lila' : '#C69AD0',
+      },
       spacing:{
         '18': '70px'
       },
@@ -42,11 +48,13 @@ export default {
       'bebas': ['"Bebas Neue"'],
       'barlow': ['"Barlow Condensed"'],
       'ubuntuMono': ['"Ubuntu Mono"'],
-      'barlowCondensed': ['"Barlow Condensed"']
+      'barlowCondensed': ['"Barlow Condensed"'],
+      'mono': ['JetBrains Mono', 'monospace']
     },
   },
   plugins: [
-    require('tailwindcss-animated')
+    // eslint-disable-next-line no-undef
+    require('tailwindcss-animated'),
   ],
 }
 
