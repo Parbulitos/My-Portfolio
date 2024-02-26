@@ -1,13 +1,18 @@
-import Home from "./views/Home.jsx";
+import Home from "./pages/Home.jsx";
+import Proyects from "./pages/Proyects.jsx";
 import "@fontsource/jetbrains-mono"; // Defaults to weight 400
 import "@fontsource/jetbrains-mono/400.css"; // Specify weight
-import "@fontsource/jetbrains-mono/400-italic.css"; // Specify weight and style
+import "@fontsource/jetbrains-mono/400-italic.css";
+import {Routes, Route} from "react-router-dom";
 
 export default function App(){
 
     return (
         <div className="overflow-hidden">
-            <Home></Home>
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/proyects" element={<Proyects/>}/>
+            </Routes>
         </div>
     )
 }

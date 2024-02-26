@@ -15,7 +15,7 @@ export default function InfoTile({isFirstTile, isSecondTile}){
                         {esString.location}
                     </p>
                     <p className="gap-3">
-                        {[esString.graduateAt, esString.degree, esString.at, esString.college,". ", esString.interestedAt, esString.fieldOfInterest, esString.descriptionEnding]}
+                        {[esString.graduateAt, esString.degree, esString.at, esString.college,". ", esString.interestedAt, esString.fieldOfInterest, esString.descriptionEnding,"."]}
                     </p>
                 </div>
             }
